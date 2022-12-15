@@ -45,21 +45,21 @@ ve
 docker rm exorde-cli 
 ```
 
-komutlarını girdikten sonra tekrardan dan devam etsin
+komutlarını girdikten sonra tekrardan 6dan devam etsin
 
-#### 8)  komutunu girin
+#### 7)  komutunu girin
 
 ```
 screen -r exorde
 ```
 
-#### 9) komutunu girin
+#### 8) komutunu girin
 
 ```
 docker ps
 ```
 
-#### 10)  Logları görmek için
+#### 9)  Logları görmek için
 ```
 docker logs --follow öğrendiğimizid
 ```
