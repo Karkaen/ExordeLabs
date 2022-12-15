@@ -1,48 +1,65 @@
-####1)   komutunu girin 
+#### 1)   komutunu girin 
 
-
-`
+```
 cd ExordeModuleCL
-`
+```
 
+#### 2)  komutunu girin
 
-####2)  komutunu girin
+```
+nano localConfig.json 
+```
 
-`nano localConfig.json `
+#### 3)  yön tuşlarını kullanarak lastUpdate kısmına gidip 1.3.5 olarak değiştirin
 
-####3)  yön tuşlarını kullanarak lastUpdate kısmına gidip 1.3.5 olarak değiştirin
+#### 4)  Ctrl+X basın sonra Y basın sonra Enter basın
 
-####4)  Ctrl+X basın sonra Y basın sonra Enter basın
+#### 5)  komutunu girin
 
-####5)  komutunu girin
+```
+docker build -t exorde-cli .
+```
 
-`docker build -t exorde-cli . `
+#### 6)  Aşağıdaki komutta ETHEREUMADRESİNİZ kısmını kendi adresiniz ile değiştirererek komutu girin 
 
-####6)  Aşağıdaki komutta ETHEREUMADRESİNİZ kısmını kendi adresiniz ile değiştirererek komutu girin 
-
-`docker run \
+```
+docker run \
 -d \
 --restart unless-stopped \
 --pull always \
 --name exorde-cli \
 exordelabs/exorde-cli \
 -m ETHEREUMADRESİNİZ \
--l 2`
+-l 2
+```
 
 ~~Conflict Hatası Alanlar ~~
 
-`docker stop exorde-cli `
+```
+docker stop exorde-cli 
+```
 
 ve 
 
-`docker rm exorde-cli `
+```
+docker rm exorde-cli 
+```
 
 komutlarını girdikten sonra tekrardan dan devam etsin
 
-####8)  `screen -r exorde` komutunu girin
+#### 8)  komutunu girin
 
-####9) `docker ps` komutunu girin
+```
+screen -r exorde
+```
 
-####10)  öğrendiğiniz container id’yi aşağıdaki komutta yerine yazıp komutu girin
+#### 9) komutunu girin
 
-####11)  docker logs --follow öğrendiğimizid
+```
+docker ps
+```
+
+#### 10)  Logları görmek için
+```
+docker logs --follow öğrendiğimizid
+```
