@@ -1,6 +1,6 @@
 1)   komutunu girin 
 
-`cd ExordeModuleCLI`
+> `cd ExordeModuleCLI`
 
 2)  komutunu girin
 
@@ -41,4 +41,4 @@ komutlarını girdikten sonra tekrardan dan devam etsin
 
 10)  öğrendiğiniz container id’yi aşağıdaki komutta yerine yazıp komutu girin
 
-11)  `docker logs --follow öğrendiğimizid`
+11)  docker logs --follow öğrendiğimizid
