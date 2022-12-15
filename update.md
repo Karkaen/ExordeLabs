@@ -39,9 +39,8 @@
 
  ve `
 
-> docker rm exorde-cli komutlarını
+> docker rm exorde-cli` komutlarını girdikten sonra tekrardan 7-a) dan devam etsin
 
-` girdikten sonra tekrardan 7-a) dan devam etsin
 8)  
 
 > `screen -r exorde`
