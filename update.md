@@ -3,19 +3,25 @@
     > cd ExordeModuleCLI
 
  komutunu girin 
+ 
 2)  
 
     > nano localConfig.json
 
  komutunu girin
+ 
 3)  yön tuşlarını kullanarak lastUpdate kısmına gidip 1.3.5 olarak değiştirin
+
 4)  Ctrl+X basın sonra Y basın sonra Enter basın
+
 5)  
 
     > docker build -t exorde-cli .
 
  komutunu girin
+
 6)  Aşağıdaki komutta ETHEREUMADRESİNİZ kısmını kendi adresiniz ile değiştirererek komutu girin 
+
 7-a)  
 
 >     docker run \
@@ -46,7 +52,9 @@
 > `docker ps`
 
 komutunu girin
+
 10)  öğrendiğiniz container id’yi aşağıdaki komutta yerine yazıp komutu girin
+
 11)  `
 
 > docker logs --follow öğrendiğimizid
